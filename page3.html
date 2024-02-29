@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome Screen</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.welcome-container {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.image-container img {
+  width: 100%; 
+  max-width: 100px; 
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.skip-button, .next-button {
+    border: 1px solid #007d89;
+  border-radius: 4px;
+  padding: 10px 25px;
+  cursor: pointer;
+  
+}
+
+.skip-button {
+  background-color: #ffffff;
+}
+
+.next-button {
+  background-color: #007d89;
+  color: white;
+}
+
+.skip-button:hover {
+  background-color: #ffffff;
+}
+
+.next-button:hover {
+  background-color: #007d89;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #007d89;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #007d89;
+}
+
+</style>
+<div class="welcome-container">
+  <div class="image-container">
+    
+    <img src="https://imgb.ifunny.co/images/ef2af93cab972218763ffc77bf6b9c17220c91bd5394ce72531248acea64ee0c_1.webp" alt="Welcome Image">
+  </div>
+  <h1>Welcome my guy</h1>
+  <p>We're glad you are here</p>
+  
+  <div class="button-container">
+    <button class="skip-button">Skip</button>
+    <button class="next-button">Next</button>
+  </div>
+  
+  <div class="pagination">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+
+</body>
+</html>

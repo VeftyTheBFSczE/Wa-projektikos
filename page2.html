@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  color: #3b3a3a;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: left;
+}
+
+p {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #3b3b3b;
+  border-radius: 1px;
+  background-color: #f7faf7;
+}
+
+.login-button {
+  background-color: #007c88;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 10px 20px;
+  width: 270px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #007ba7;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 20px;
+  color: #008cba;
+  text-decoration: none;
+  text-align: left;
+  margin: 20px;
+  font-size: 15px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-button {
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #555;
+  text-decoration: none;
+}
+
+.social-button:hover {
+  opacity: 0.8;
+}
+
+    </style>
+
+<div class="login-container">
+  <h2>Welcome back! 👋</h2>
+  <p>Login to your account</p>
+  
+  <form action="/submit-your-login-form" method="post">
+    <div class="input-group">
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="input-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    
+    <button type="submit" class="login-button">LOGIN</button>
+    
+    <a href="/reset-password" class="forgot-password">Forget Password?</a>
+    
+    <div class="divider">Or </div>
+    
+    <div class="social-login">
+      <a href="/login-with-google" class="social-button">G</a>
+      <a href="/login-with-microsoft" class="social-button">M</a>
+      <a href="/login-with-yahoo" class="social-button">Y</a>
+      <a href="/login-with-apple" class="social-button">A</a>
+      <a href="/login-with-facebook" class="social-button">F</a>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
