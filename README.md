@@ -4,8 +4,14 @@ Toto je projekt na WA taková oprva chyby protože jsem si myslel že si to kaž
 
 dodatek Hamacek Martin: 
 
-co to je za kód. Promiň ale proč máš v každém souboru zvláštní stylopis neznáš atribut `<link rel="stylesheet" type="text/css" href="stylopis.css">` a ještě k tomu jsi špatně umístit tag `<style/>` do tagu `<body/>`
-Proč máš zvlášť page5.html a page5mobileversion.html to jako neznáš CSS media (asi jako né no)
+co to je za kód. 
+
+I. Promiň ale proč máš v každém souboru zvláštní stylopis neznáš atribut `<link rel="stylesheet" type="text/css" href="stylopis.css">` a ještě k tomu jsi špatně umístit tag `<style/>` do tagu `<body/>`
+
+II. Proč máš zvlášť page5.html a page5mobileversion.html to jako neznáš CSS media (asi jako né no)
+
+III. HlavniStranka.html - CO? hlavní stránka se vždy pojmenováná index.html popř default.html
+
 PROMIŇ ALE 
 
 I. MUSEL JSEM SOUBORY page4,page5,page5mobileversion.html SMAZAT, PROTOŽE TAKTO ŠPATNÉ KÓDY NEBUDU NAHRÁVAT (I KDYŽ SI JE VYTVOŘIL TY)
