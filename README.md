@@ -16,6 +16,10 @@ PROMIŇ ALE
 
 I. MUSEL JSEM SOUBORY page4,page5,page5mobileversion.html SMAZAT, PROTOŽE TAKTO ŠPATNÉ KÓDY NEBUDU NAHRÁVAT (I KDYŽ SI JE VYTVOŘIL TY)
 
-II. PŘÍŠTĚ UŽ S TEBOU NESPOLUPRACUJI ABYCH VYDÁVAL TAKHLE ŠPATNĚ UDĚLANÉ KÓDY ZA SVOJE TAK TO JAKO NÉ NO.
+II. ze svého projektu jsem musel smazat soubory, které si vydával za svoje (já jsem je vytvořil jenom se ti je poslal), protože něco takovýho by si teď nebyl schopen napsal (když vidím jak jsou napsané ostatní soubory na tvém GITu) - **nauč se pořadně podvádět**
+
+III. PŘÍŠTĚ UŽ S TEBOU NESPOLUPRACUJI ABYCH VYDÁVAL TAKHLE ŠPATNĚ UDĚLANÉ KÓDY ZA SVOJE TAK TO JAKO NÉ NO.
+
+
 
 Dřív jsem se k tomuhle nemohl dostat, protože jsem nšco řešil. 
